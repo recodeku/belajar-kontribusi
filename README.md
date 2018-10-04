@@ -1,2 +1,83 @@
-# belajar-kontribusi
-repositori belajar kontribusi open source project
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+# Belajar Kontribusi
+Repositori untuk belajar kontribusi open source project.
+
+## Fork Repositori
+Fork repositori ini dengan cara menekan tombol fork di sebelah kan atas. 
+<img align="right" width="300" src="assets/image/kontribusi/gambar_1.png" alt="Fork repositori" />
+
+## Clone repositori hasil fork
+Selanjutnya, clone repo hasil fork yang ada di akun kamu ke komputer local. Tekan tombol clone, lalu tekan icon *copy to clipboard* .
+<img align="right" width="300" src="assets/image/kontribusi/gambar_3.png" alt="" />
+
+Buka terminal lalu run git command di bawah ini:
+```
+git clone "url yang udah dicopy"
+```
+
+<img align="right" width="300" src="assets/image/kontribusi/gambar_4.png" alt="" />
+
+Misalnya:
+```
+git clone https://github.com/username-kamu/belajar-kontribusi.git
+```
+di mana `username-kamu` diisi sama username akun GitHub kamu.
+
+## Buat branch baru
+Setelah repositori di-clone, buka folder repositori:
+
+```
+cd belajar-kontribusi
+```
+Lalu buat branch baru menggunakan command `git checkout`:
+```
+git checkout -b <add-nama-kamu>
+```
+
+Contohnya:
+```
+git checkout -b add-gun-gun
+```
+(Nama branch-nya bebas. Cuma mesti disesuaikan sama tujuan branch dibuat ya.)
+
+## Modifikasi dan Commit
+Buka file `Contributors.md` menggunakan text editor favorit kamu. Di sini kita pakai Markdown. Tentang markdown bisa kamu baca-baca cheatsheet-nya [di sini yaa.](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+Nah sekarang di file `Contributors.md` tambahkan data kamu di baris paling akhir ya: 
+
+```
+### Nama Kamu
+- Deskripsi tentang kamu
+- [![twitter-alt][twitter-img]](https://twitter.com/example)
+  [![facebook-alt][facebook-img]](https://facebook.com/example)
+  [![google-img][google-img]](https://plus.google.com/+Example)
+  [![tumblr-alt][tumblr-img]](https://example.tumblr.com)
+  [![dribbble-alt][dribbble-img]](https://dribbble.com/example)
+  [![github-alt][github-img]](https://github.com/example)
+  [![freeCodeCamp](imgs/freecodecamp.png)](https://www.freecodecamp.org/example)
+```
+Sekarang run command `git status` buat lihat modifikasi apa saja yang udah kamu lakukan. 
+Selanjutnya tambahkan dengan menggunakan command `git add`:
+
+```
+git add Contributors.md
+```
+Lalu commit modifikasi yang udah kamu buat menggunakan command: `git commit`:
+```
+git commit -m "Add <nama-kamu> ke daftar kontributor"
+```
+ganti `<nama-kamu>` sama nama kamu ya.
+
+## Push ke GitHub
+Push dengan command `git push`:
+```
+git push origin <add-nama-kamu>
+```
+ubah `<add-nama-kamu>` dengan nama branch yang udah dibuat.
+
+## Pull Request
+Kalau kamu buka repositori kamu di GitHub, kamu bisa lihat tombol `Compare & pull request` button.  Tekan tombol tersebut.
+
+Nah selanjutnya tekan tombol Create pull request.
