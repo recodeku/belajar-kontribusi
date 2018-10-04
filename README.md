@@ -6,18 +6,17 @@ Repositori untuk belajar kontribusi open source project.
 
 ## Fork Repositori
 Fork repositori ini dengan cara menekan tombol fork di sebelah kan atas. 
-<img align="right" width="300" src="assets/image/kontribusi/gambar_1.png" alt="Fork repositori" />
+![fork](assets/image/kontribusi/gambar_1.png)
 
 ## Clone repositori hasil fork
 Selanjutnya, clone repo hasil fork yang ada di akun kamu ke komputer local. Tekan tombol clone, lalu tekan icon *copy to clipboard* .
-<img align="right" width="300" src="assets/image/kontribusi/gambar_3.png" alt="" />
+![fork](assets/image/kontribusi/gambar_3.png)
 
 Buka terminal lalu run git command di bawah ini:
 ```
 git clone "url yang udah dicopy"
 ```
-
-<img align="right" width="300" src="assets/image/kontribusi/gambar_4.png" alt="" />
+![fork](assets/image/kontribusi/gambar_4.png)
 
 Misalnya:
 ```
