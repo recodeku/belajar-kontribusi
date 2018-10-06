@@ -52,16 +52,15 @@ Buka file `Contributors.md` menggunakan text editor favorit kamu. Di sini kita p
 Nah sekarang di file `Contributors.md` tambahkan data kamu di baris paling akhir ya: 
 
 ```
-### Nama Kamu
-- Deskripsi tentang kamu
-- [![twitter-alt][twitter-img]](https://twitter.com/example)
-  [![facebook-alt][facebook-img]](https://facebook.com/example)
-  [![google-img][google-img]](https://plus.google.com/+Example)
-  [![tumblr-alt][tumblr-img]](https://example.tumblr.com)
-  [![dribbble-alt][dribbble-img]](https://dribbble.com/example)
-  [![github-alt][github-img]](https://github.com/example)
-  [![freeCodeCamp](imgs/freecodecamp.png)](https://www.freecodecamp.org/example)
+[no]. [nama-kamu](url-akun-github) : [Deskripsi tentang kamu]
+
 ```
+Contohnya:
+```
+1. [Gun Gun Priatna](https://github.com/gungunpriatna) : Saya seorang web developer
+
+```
+
 Sekarang run command `git status` buat lihat modifikasi apa saja yang udah kamu lakukan. 
 Selanjutnya tambahkan dengan menggunakan command `git add`:
 
