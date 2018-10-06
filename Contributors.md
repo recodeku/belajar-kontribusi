@@ -10,3 +10,4 @@
 
 
 1. [Gun Gun Priatna](https://github.com/gungunpriatna) : Saya seorang web developer.
+2. [Luffy](https://github.com/sayaluffy) : Seorang android developer yang memiliki hobi untuk mempelajari hal baru terutama di bidang software enginer, dan berbagi ilmu dengan teman-teman yang ada dalam satu komunitas.
